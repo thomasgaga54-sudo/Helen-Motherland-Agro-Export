@@ -2,21 +2,21 @@
   "name": "e-commerce-agro",
   "version": "1.0.0",
   "description": "Helen Motherland Agro export food delivery from Nigeria to the world, internationally and locally",
-  "homepage": "https://github.com/gaga477/E-commerce-Agro#readme",
+  "homepage": "https://github.com/thomasgaga54-sudo/Helen-Motherland-Agro-Export#readme",
   "bugs": {
-    "url": "https://github.com/gaga477/E-commerce-Agro/issues"
+    "url": "https://github.com/thomasgaga54-sudo/Helen-Motherland-Agro-Export/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gaga477/E-commerce-Agro.git"
+    "url": "git+https://github.com/thomasgaga54-sudo/Helen-Motherland-Agro-Export.git"
   },
   "license": "ISC",
   "author": "Ogaga",
   "type": "module",
-  "main": "server.js",
+  "main": "backend/src/server.js",
   "scripts": {
-    "start": "node server.js",
-    "seed": "node seed.js"
+    "start": "node backend/src/server.js",
+    "seed": "node backend/seed.js"
   },
   "dependencies": {
     "bcryptjs": "^3.0.3",
